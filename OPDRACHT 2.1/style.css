@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(182, 193, 236);
+}
+
+.img1{
+    height: 200px;
+}
+.img2{
+    height: 175px;
+}
+
+.img3{
+    height: 30px;
+}
+
+h2{
+    line-height: 0%;
+}
+
+h1,h2{
+    color: rgb(95, 107, 157);
+    font-size: x-large;
+}
+
+h3,p1{
+    color: rgb(53, 63, 106);
+}
+
+p{
+    
+    font-size: larger;
+}
