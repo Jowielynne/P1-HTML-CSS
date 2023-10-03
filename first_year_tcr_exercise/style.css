@@ -3,15 +3,40 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
 }
+
 body {
   font-family: "Goldman", cursive;
+  min-height: 100vh;
+  position: relative;
+}
+
+h1 {
+  padding-top: 169px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+}
+
+footer {
+  height: 12vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  padding-top: 24px;
+  background-color: #00a8c7;
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
 }
 
 nav {
-  display: flex;
   width: 100%;
   padding: 2rem;
   min-height: 10vh;
@@ -20,20 +45,45 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  display: flex;
+  position: fixed;
 }
+
 nav ul {
   display: flex;
   align-items: center;
   list-style-type: none;
 }
+
 nav li {
   font-size: 2.5rem;
   padding: 0 4rem 0 4rem;
 }
+
 nav a {
   color: white;
   text-decoration: none;
 }
+
 nav img {
   width: 5vw;
 }
+
+#homepage {
+  background-image: url(./img/background.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #FFF;
+}
+
+#mysql_page {
+  background-color: black;
+  color: #FFF;
+}
+
+#javascript_page {
+  background-color: black;
+  color: #FFF;
+}
+

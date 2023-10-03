@@ -1,0 +1,10 @@
+nav{
+    background-color: blue;
+    display: flex;
+    position: fixed;
+    color: whitesmoke;
+}
+
+body{
+    min-height: 200vh;
+}
