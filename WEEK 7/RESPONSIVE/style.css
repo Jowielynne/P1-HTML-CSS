@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #6967de;
+    height: 10vh;
+}
+
+/* IPAD/TABLET */
+@media screen and (max-width: 768px) {
+    section {
+        background-color: #e0e0ff;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+/* PHONE, HAHA. */
+@media screen and (max-width: 576px) {
+    section {
+        font-size: 30px;
+        background-color: #c5c4ff;
+        text-align: center;
+    }
+}
