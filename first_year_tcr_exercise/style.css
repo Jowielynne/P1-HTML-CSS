@@ -10,7 +10,6 @@ html {
 
 body {
   font-family: "Goldman", cursive;
-  position: relative;
   height: 100vh;
 }
 
@@ -79,7 +78,7 @@ nav img {
 
 .homepage_text {
   padding-top: 310px;
-  }
+}
 
 #mysql_page {
   background-color: black;
@@ -91,10 +90,15 @@ nav img {
   color: #FFF;
 }
 
-.html_png, .php_png {
+.html_png,
+.php_png {
   display: flex;
+
+  height: 400px;
+  flex-shrink: 0;
 }
 
-.java_png, .sql_png {
+.java_png,
+.sql_png {
   display: flex;
 }
