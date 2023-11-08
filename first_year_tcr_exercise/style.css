@@ -22,11 +22,10 @@ h1 {
 }
 
 footer {
-  height: 12vh;
   position: absolute;
   bottom: 0;
-  left: 0;
-  width: 100vw;
+  height: 12vh;
+  width: 100%;
   padding-top: 24px;
   background-color: #00a8c7;
   color: #FFF;
@@ -37,6 +36,8 @@ footer {
 
 nav {
   width: 100%;
+  position: absolute;
+  top: 0;
   padding: 2rem;
   min-height: 10vh;
   align-items: center;
